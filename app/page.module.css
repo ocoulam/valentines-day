@@ -1,0 +1,14 @@
+.floatCard {
+  animation: floatY 3s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
